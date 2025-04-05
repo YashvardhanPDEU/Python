@@ -1,0 +1,5 @@
+str = input("enter string: ")
+str_remove = input("enter string to be removed: ")
+index = str.find(str_remove)
+print(str[0:index] , end = "")
+print(str[index + len(str_remove) : len(str)])

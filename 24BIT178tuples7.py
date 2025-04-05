@@ -1,0 +1,6 @@
+tup = (1,2,3,4,5,6)
+tup1 = list(tup)
+tup1.remove(2)
+tup2 = tuple(tup1)
+print("old tuple is: ",tup)
+print("new tuple is: ",tup2)
